@@ -1,0 +1,36 @@
+.popup-bay{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #00000080;
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.popup-bay__product{
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 300px;
+    border-radius: 8px;
+    position: relative;
+    padding: 20px 10px;
+
+}
+.popup-bay__title{
+    text-align: center;
+}
+.popup-bay__img{
+    width: 168px;
+    height: 168px;
+    display: block;
+    margin: 0 auto 10px;
+}
+.popup-bay__price{
+    text-align: center;
+}
+.popup-bay__name{
+    text-align: center;
+}
